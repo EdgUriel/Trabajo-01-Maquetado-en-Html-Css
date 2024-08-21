@@ -1,0 +1,78 @@
+/* Contenedor principal */
+.container-language{
+    align-items: center !important;
+}
+.cards-main-others {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #282c34;
+    border-radius: 10px;
+}
+
+.language-info {
+    background-color: #282c34;
+}
+
+.cards-main-languages {
+    margin-bottom: 10px;
+}
+
+/* Contenedor de cada ítem */
+.language-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    margin: 10px 0;
+    width: 80%;
+    background-color: #1c1f26; 
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+}
+
+/* Círculo de progreso */
+.progress-wrapper {
+    position: relative;
+    width: 100px; /* Tamaño del círculo */
+    height: 100px; /* Tamaño del círculo */
+}
+
+.progress-circle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(#43B7B8 var(--progress), #1c1f26 var(--progress));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+}
+
+.progress-circle::before {
+    content: attr(data-percent) "%";
+    position: absolute;
+    font-size: 22px;
+    color: #fff;
+}
+
+/* Título de cada ítem */
+.language-info h4 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0;
+}
+
+/* Descripción de cada ítem */
+.language-info p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    color: #d3d3d3;
+    margin: 0;
+}

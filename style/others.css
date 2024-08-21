@@ -1,0 +1,51 @@
+/* Contenedor principal */
+.cards-main-others {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-image: -webkit-linear-gradient(135deg, #43B7B8, #436AAC, #8929AD);
+    border-radius: 10px;
+}
+
+/* Contenedor de cada ítem */
+.another-info {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin: 10px 0;
+    width: 80%;
+    border-left: 5px solid #43B7B8; /* Barra de color a la izquierda */
+    background-color: #1c1f26; /* Fondo de cada ítem */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto hover para cada ítem */
+.another-info:hover {
+    background-color: #333744; /* Cambio de color al hacer hover */
+}
+
+/* Icono (opcional) */
+.another-info::before {
+    content: "\2022"; /* Un simple punto o usa un icono */
+    font-size: 30px;
+    color: #43B7B8; /* Color del ícono */
+    margin-right: 10px;
+}
+
+/* Título de cada ítem */
+.another-info h4 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0;
+}
+
+/* Descripción de cada ítem */
+.another-info p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    color: #d3d3d3;
+    margin: 0;
+}

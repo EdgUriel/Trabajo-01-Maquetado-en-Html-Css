@@ -1,0 +1,55 @@
+.container{
+    width: 100%;
+    text-align: left;
+    margin-left: auto;
+    position: relative;    
+}
+
+.about-me{
+    width: 100%;
+    text-align: left;
+    margin-left: auto;
+    position: relative;
+    display: flex; /* Agrega flexbox a la clase container */
+    align-items: center; /* Alinea verticalmente al centro */
+    justify-content: space-between; /* Distribuye espacio entre los elementos */
+}
+
+h1,h2,h3,p{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.section-style{
+    background-image: -webkit-linear-gradient(135deg, #43B7B8, #436AAC, #8929AD);
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom:10px;
+    border-top: 0;
+    color: #fff;
+}
+
+.section-title{
+    font-size: 30px;
+    padding-top: 40px;
+    margin-bottom: 10px;
+}
+
+.description{
+    font-size: 20px;
+    padding-bottom: 15px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.photo {
+    width: 20%; /* Ajusta el ancho del contenedor de la foto */
+    margin-right: 5%; /* Añade margen derecho */
+    margin-left: auto;
+    margin-bottom: 2%;
+}
+
+.photo img {
+    width: 100%; /* Haz que la imagen ocupe todo el ancho del contenedor */
+    border: 5px solid #fff;
+    border-radius: 15px;
+}
