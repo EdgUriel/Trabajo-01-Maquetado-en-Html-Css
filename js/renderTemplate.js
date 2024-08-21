@@ -72,7 +72,7 @@ function render() {
             <p> Nationality: ${data.nationality}</p>
             </div>
             <div class="photo">
-                <img src="/assets/me.jpg" alt="">
+                <img src="${data.img}" alt="me">
             </div>
         </div>
     </div>

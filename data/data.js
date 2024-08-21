@@ -52,7 +52,8 @@ export const aboutMeData = {
     birth: "January 01, 2004",
     phone: "+52 3310203881",
     email: "edgarurieludg@gmail.com",
-    nationality: "Mexican"
+    nationality: "Mexican",
+    img: "assets/me.jpg"
 }
 
 
@@ -103,7 +104,7 @@ export const languagesData = [
         color: '#E34F26'
     },
     {
-        img: "assets/usa.png",
+        img: "assets/USA.png",
         nameSkill: "English",      
         percentage: 50,
         color: '#E34F26'
