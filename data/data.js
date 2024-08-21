@@ -53,7 +53,7 @@ export const aboutMeData = {
     phone: "+52 3310203881",
     email: "edgarurieludg@gmail.com",
     nationality: "Mexican",
-    img: "assets/me.jpg"
+    img: "assets/edgar.jpg"
 }
 
 
